@@ -64,7 +64,7 @@ class FirstPage extends StatelessWidget {
                               context,
                               MaterialPageRoute(
                                 fullscreenDialog: true,
-                                builder: (context) => ThirdPage(),
+                                builder: (context) => const ThirdPage(),
                               ));
                         },
                         child: const Text('リスト表示'),
